@@ -1,7 +1,10 @@
 site_name: MEINE WEBSITE
 site_url: https://mydomain.org/mysite
 theme:
+  language: de
   name: material
+  logo: Profile_logo.png
+  favicon: Profile_logo.png
   palette:
     # Palette toggle for dark mode (Jetzt als ERSTES -> Standard)
     - scheme: slate
@@ -20,26 +23,56 @@ theme:
         name: Switch to dark mode
   features:
     - navigation.instant
+    - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.instant.preview
+
     - navigation.tracking
+
     - navigation.tabs
     - navigation.tabs.sticky
+
     - navigation.sections
+
     - navigation.expand
+    - navigation.path
     - navigation.indexes
-    - toc.integrate
     - navigation.top
+
+    - toc.integrate
+
     - search.suggest
     - search.highlight
     - search.share
+
     - content.code.copy
+    - navigation.footer
 
 plugins:
   - search
   - blog
   - tags:
       tags_file: tags.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://www.youtube.com/
+      name: MEIN GITHUB
+    - icon: fontawesome/brands/discord
+      link: fontawesome/brands/discord
+      name: MEIN DISCORD
+
+copyright: Copyright &copy; 2016 - 2026 Artur
+
+#  consent:
+#    title: Cookie consent
+#    description: >-
+#      We use cookies to recognize your repeated visits and preferences, as well
+#      as to measure the effectiveness of our documentation and whether users
+#      find what they're searching for. With your consent, you're helping us to
+#      make our documentation better.
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -51,10 +84,17 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-  - Home: index.md
-  - About:
+  - Introduction: index.md
+  - About Me:
       - About Me: about/about.md
-      #      - Mein Portfolio: about/README.md
+      ##      - Mein Portfolio: about/README.md
       - site: about/site.md
-  - Blog: blog/index.md
+  - Projects: projects/index.md
+  - Skills & Tools: Skills & Tools/index.md
+  - Experience: Experience/index.md
+  - Education: Education/index.md
+  - Partners: Partners/index.md
+  - Contact: Contact/index.md
+  - TEST: TEST/README.md
+  - TEST2: index_2.md
   - Tags: tags.md
