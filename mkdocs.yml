@@ -53,6 +53,8 @@ plugins:
   - blog
   - tags:
       tags_file: tags.md
+  - minify:
+      minify_html: true
 
 extra:
   generator: false
