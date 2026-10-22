@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
+      - name: Install dependencies[recommended]
         run: |
           pip install mkdocs mkdocs-material
 
