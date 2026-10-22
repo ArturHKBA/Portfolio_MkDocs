@@ -55,6 +55,6 @@ nav:
   - About:
       - About Me: about/about.md
       #      - Mein Portfolio: about/README.md
-      - seite: about/seite.md
+      - site: about/site.md
   - Blog: blog/index.md
   - Tags: tags.md
