@@ -3,8 +3,6 @@ site_url: https://mydomain.org/mysite
 theme:
   language: de
   name: material
-  logo: Profile_logo.png
-  favicon: Profile_logo.png
   palette:
     # Palette toggle for dark mode (Jetzt als ERSTES -> Standard)
     - scheme: slate
@@ -53,8 +51,6 @@ plugins:
   - blog
   - tags:
       tags_file: tags.md
-  - minify:
-      minify_html: true
 
 extra:
   generator: false
@@ -63,7 +59,7 @@ extra:
       link: https://www.youtube.com/
       name: MEIN GITHUB
     - icon: fontawesome/brands/discord
-      link: fontawesome/brands/discord
+      link: https://www.youtube.com/
       name: MEIN DISCORD
 
 copyright: Copyright &copy; 2016 - 2026 Artur
